@@ -23,5 +23,4 @@ urlpatterns = [
     path('base/',views.base,name="base"),
     path('home/',views.home,name="home"),
     path('myapp/',include('myapp.urls')),
-    
 ]
